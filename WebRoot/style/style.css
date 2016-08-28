@@ -1,0 +1,181 @@
+body{
+	background: url(../images/background.jpg);
+}
+
+ul
+{
+    overflow: hidden;
+
+    width: 45em;
+    margin: 0;
+    padding: 0;
+
+    
+
+    background: linear-gradient(#ec3c3c,#fb3);
+    margin:0 auto;
+    
+    border-radius:10px;
+    font:bold 1.3em 'Microsoft YaHei';
+
+}
+
+ul li
+{	list-style: none;
+    float: left;
+    width:9em;
+}
+
+ul a
+{
+    display: block;
+
+    padding: 1.3em ;
+
+    text-decoration: none;
+
+    color: white;
+}
+
+ul a:hover {
+	background: linear-gradient(#F267E0,#5BA5AE);
+}
+
+
+article{
+	background: hsla(0,0%,100%,.3);
+	width:70%;
+	margin:4em auto;
+	padding:5em 5em;
+}
+
+article div {
+	width:75%;
+	margin:0 auto;
+}
+
+.login,.querry ,.re{
+	background: hsla(0,0%,100%,.3);
+	width:40%;
+	margin:50px auto;
+	padding:1em 3em;
+	overflow: hidden;
+	font: 1.5em 'KaiTi';
+
+}
+
+.login form {
+	margin:0 auto;
+	width:15em;
+}
+label{
+	display: block;
+	margin:30px;
+}
+.login input {
+	
+	display:block;
+	width:15em;
+	height:2em;
+
+}
+
+.post {
+	background: hsla(0,0%,100%,.3);
+	width:50%;
+	margin:0 auto;
+	margin-top:3em;
+	padding:4em;
+}
+
+.post h2{
+	
+	font:bold 1.5em 'SimHei';
+
+}
+
+.post input[type='text'] {
+	display:block;
+	width:30em;
+	height: 2em
+}
+
+
+textarea {
+	margin:4em 0;
+	width:50em;
+	height:30em;
+}
+
+input:focus,textarea:focus{
+	background:#ffc;
+}
+.post input[type='submit']{
+	display: block;
+	width:10em;
+	height:3em;
+	
+}
+.querry input[type='submit']{
+	display: block;
+	width:10em;
+	height:2em;
+	float:left;
+	margin-right:2em;
+}
+.board {
+	margin-top:100px;
+}
+.boardtext{
+	height:100px;
+	weight:100%
+}
+
+.board input {
+	height:2em;
+	weight:3em;
+}
+
+.content{
+	margin-top:50px;
+	float:left;
+}
+
+
+table{
+	width:500px;
+	
+	font-family: Microsoft YaHei;
+	border-collapse: separate;
+	border-spacing: 0;
+	text-align: center;
+	color:#333;
+	font-size:20px;
+	margin:50px auto;
+
+}
+
+th td{
+	margin£»0£»
+	padding:0;
+	
+}
+td{
+	height:50px;
+}
+thead th{
+	background-color: #d4dde6;
+	border-bottom :1px solid #a9bacb;
+
+
+}.me {
+	color:red;
+	font:bold;
+}
+
+
+
+ .message .author{
+ }
+
+
